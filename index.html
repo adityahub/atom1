@@ -39,7 +39,7 @@
   <script>
  new WOW().init();
  </script>
-     <script>   var ref = cordova.InAppBrowser.open('http://mobile.atomreads.com', '_blank', 'location=yes'); </script>
+     <script>   function myfunction() {var ref = cordova.InAppBrowser.open('http://mobile.atomreads.com', '_self', 'location=yes'); } </script> 
         <title>5 words</title>
         <script type="text/javascript">
 <!--
@@ -55,7 +55,7 @@ function delayer(){
     <div class="wow pulse" data-wow-iteration="infinite" data-wow-duration="3s"><img src="128.png"></div></br>
     <h1> Atom </h1>
 
-    <div class="wow bounceInLeft" data-wow-delay="2s"><h3>Fetching new <a href="http://mobile.atomreads.com/">atoms</a></h3></div>
+    <div class="wow bounceInLeft" data-wow-delay="2s"><h3>Fetching new <a onclick="myFunction()">atoms</a></h3></div>
 
      
      <div class="wow bounceInRight" data-wow-delay="4s"><h3>Updating</h3></div>
