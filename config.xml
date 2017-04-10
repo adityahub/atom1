@@ -106,7 +106,7 @@
     -->
 
     <access origin="*" />
-    <allow-intent href="http://*/*" />
+   
 
     <!--
         <access origin="http://phonegap.com" />                    - allow any secure requests to http://phonegap.com/
