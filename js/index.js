@@ -50,6 +50,13 @@ var app = {
         initPushwoosh();
         app.receivedEvent('deviceready');
     },
+    function loadStartCallBack() {
+
+    $('#status-message').text("loading please wait ...");
+
+}
+var iab = cordova.InAppBrowser;
+iab.open('http://mobile.atomreads.com', '_blank');        // loads in the InAppBrowser
     // Update DOM on a Received Event
     receivedEvent: function(id) {
         var parentElement = document.getElementById(id);
