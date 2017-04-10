@@ -57,7 +57,7 @@
     <plugin name="cordova-plugin-splashscreen"        source="npm" spec="~3.2.1" />
     <plugin name="cordova-plugin-statusbar"           source="npm" spec="~2.1.2" />
     <plugin name="cordova-plugin-vibration"           source="npm" spec="~2.1.0" />
- 
+    <plugin name="cordova-plugin-whitelist"           source="npm" spec="~1.2.1" />
    
     <!-- Pushwoosh plugin -->
     <gap:plugin name="pushwoosh-pgb-plugin" source="npm" />
@@ -98,7 +98,7 @@
     -->
 
     <access origin="*" />
-   
+    <access origin="http://mobile.atomreads.com" browserOnly="true" />
 
     <!--
         <access origin="http://phonegap.com" />                    - allow any secure requests to http://phonegap.com/
