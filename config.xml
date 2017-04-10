@@ -5,7 +5,7 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.atom.first"
         version   = "1.0.0"
-        android-versionCode="14">
+        android-versionCode="16">
 
     <name>Atom</name>
 
